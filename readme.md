@@ -32,7 +32,7 @@ Want to memorize JLPT kanji? Use ii-KANJi!
  ╰────────────────────────────────────────────────────────────────────────╯
 ```
 ## How to use
-First of all, 'Download'[https://github.com/Diptipper/ii-kanji/archive/refs/heads/main.zip] the program.
+First of all, [Download](https://github.com/Diptipper/ii-kanji/archive/refs/heads/main.zip) the program.
 Then run the pre-compiled program (e.g., ii-kanji-macos) directly or via console.
 
 In either case, once you start the program, it will create `config.txt` where you can customize the lesson.
