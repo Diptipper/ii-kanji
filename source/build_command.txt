@@ -1,0 +1,5 @@
+# linux
+pyinstaller --onefile --name ii-kanji-linux --add-data "vocab:vocab" app.py
+
+# macOS
+python3 -m PyInstaller --onefile --name ii-kanji-macos --add-data "vocab:vocab" app.py

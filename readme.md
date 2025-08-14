@@ -1,0 +1,15 @@
+player: diptip
+
+lesson: meaning
+# can be {meaning, onyomi, kunyomi}
+
+levels:
+5, 4.1-8
+# N.a means "from ((a-1)*10)-th word to (a*10)-th word of level N"
+# N.a-b means "words from N.a up to N.b"
+
+# N5: 80 words   = 5.1-8
+# N4: 167 words  = 4.1-17
+# N3: 370 words  = 3.1-37
+# N2: 374 words  = 2.1-38
+# N1: 1504 words = 1.1-151
