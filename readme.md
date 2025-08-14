@@ -42,6 +42,8 @@ The program keeps track of which question you got right and wrong in the folder 
 ```math
 \text{weight} = \frac{2+\text{loses}}{2+\text{wins}+\text{loses}}.
 ```
+The 'dynamic difficulty' shown during the run is nothing but $\lfloor 10\times \text{weight}\rfloor$.
+
 Don't be afraid to be wrong!
 
 ## Lessons
