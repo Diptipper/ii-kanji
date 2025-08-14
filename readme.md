@@ -1,13 +1,5 @@
-# How to use
-### Option 1: run the pre-compiled executable
-Run the pre-compiled program (e.g., ii-kanji-macos) directly or via console
-### Option 2: run via the source
-In the source folder, run app.py with python. You need to install numpy as well to run this.
 
-In either case, once you start the program, it will create `config.txt` where you can customize the lesson.
-In the config file, you can edit your user name (this is required to track the scores), the lesson catagory (meaning, onyomi, or kunyomi), and JLPT levels (which set of kanji you want to memorize)
-
-# Features
+# ii-KANJi
 ```
  ╭───────────┬────────────────────────────────────────────────────────────╮
  │           │        player: diptip                                      │
@@ -38,6 +30,15 @@ In the config file, you can edit your user name (this is required to track the s
  │ type -x to close the program                                           │
  ╰────────────────────────────────────────────────────────────────────────╯
 ```
+## How to use
+### Option 1: run the pre-compiled executable
+Run the pre-compiled program (e.g., ii-kanji-macos) directly or via console
+### Option 2: run via the source
+In the source folder, run app.py with python. You need to install numpy as well to run this.
+
+In either case, once you start the program, it will create `config.txt` where you can customize the lesson.
+In the config file, you can edit your user name (this is required to track the scores), the lesson catagory (meaning, onyomi, or kunyomi), and JLPT levels (which set of kanji you want to memorize)
+
 ## Scores and Weights
 The program keeps track of which question you got right and wrong in the folder `scores/<player_name>`. This is use to dynamically determine the next question. For example, if you are not good with a certain kanji, it will appear more often (higher weight) than another kanji where you find easy (lower weight). The weight of the draw is given by
 ```math
