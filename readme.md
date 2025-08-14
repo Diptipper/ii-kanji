@@ -32,10 +32,8 @@ Want to memorize JLPT kanji? Use ii-KANJi!
  ╰────────────────────────────────────────────────────────────────────────╯
 ```
 ## How to use
-### Option 1: run the pre-compiled executable
-Run the pre-compiled program (e.g., ii-kanji-macos) directly or via console
-### Option 2: run via the source
-In the source folder, run app.py with python. You need to install numpy as well to run this.
+First of all, 'Download'[https://github.com/Diptipper/ii-kanji/archive/refs/heads/main.zip] the program.
+Then run the pre-compiled program (e.g., ii-kanji-macos) directly or via console.
 
 In either case, once you start the program, it will create `config.txt` where you can customize the lesson.
 In the config file, you can edit your user name (this is required to track the scores), the lesson catagory (meaning, onyomi, or kunyomi), and JLPT levels (which set of kanji you want to memorize)
