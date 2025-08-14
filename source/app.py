@@ -371,7 +371,8 @@ def main():
                 print("\033[A\033[A")
 
         if "-x" == raw.strip() :
-            print()
+            print(("\n"+" "*76)*3)
+            print("\033[A"*4)
             sys.exit(1)
 
         response = raw.lower().replace("\t","").strip()
@@ -480,12 +481,12 @@ def save_scores(scores):
             f.write(f"{kanji},{cat2},{correct},{incorrect}\n")
 
 def isin(item, the_list):
-    if item in the_list:
-        return True
-    for other in the_list:
-        if item in other:
-            return True
-    return False
+    if isinstance(the_list,list):
+        for other in the_list:
+            if item in other.lower():
+                return True
+    else :
+        return item in the_list.lower()
 
 hiragana = [
     'あ', 'い', 'う', 'え', 'お',
