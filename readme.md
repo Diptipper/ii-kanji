@@ -53,7 +53,7 @@ Don't be afraid to be wrong!
 ## Lessons
 There are 3 kinds of lessons. 'meaning' will ask you the meaning of a given kanji. To simplify the lesson, I just check if your answer in lower case is contained within one of the prepared answers or not. For example, the prepared answers for the meaning of 以 are "by means of", "because", "in view of", and "compared with". So if you answer with "compa", the program will still consider it as correct because "compa" is a substring of "compared with". If the prepared answer is "thought" and your answer is "think", the program will still count it as wrong, so keep that in mind.
 
-For the JLPT levels, you can add the whole level by using a whole number (4 means all 167 words from N4), or with increments of 10 (4.5 means 41-st to 50-th words of N4), or combined (5, 4.1, 4.3 means all of N5 words and words number 1-10 and 21-30 from N4).
-
 'onyomi' and 'kunyomi' lessons is similar to 'meaning'. You can mix the lessons by including multiple of them in the config file.
+
+For the JLPT levels, you can add the whole level by using a whole number (4 means all 167 words from N4), or with increments of 10 (4.5 means 41-st to 50-th words of N4), or combined (5, 4.1, 4.3 means all of N5 words and words number 1-10 and 21-30 from N4).
 
