@@ -1,6 +1,7 @@
 
 # ii-KANJi
 Want to memorize JLPT kanji? Use ii-KANJi!
+Credit: The list of kanji is scraped from [JLPT Sensei](https://jlptsensei.com/).
 ```
  ╭───────────┬────────────────────────────────────────────────────────────╮
  │           │        player: diptip                                      │
