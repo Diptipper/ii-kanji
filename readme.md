@@ -8,6 +8,36 @@ In either case, once you start the program, it will create `config.txt` where yo
 In the config file, you can edit your user name (this is required to track the scores), the lesson catagory (meaning, onyomi, or kunyomi), and JLPT levels (which set of kanji you want to memorize)
 
 # Features
+```
+ ╭───────────┬────────────────────────────────────────────────────────────╮
+ │           │        player: diptip                                      │
+ │ ii-KANJi™ │      attempts: 2261                                        │
+ │ ʙy ᴅɪᴩᴛɪᴩ │         level: N5 (80 words), N4 (80 words)                │
+ │           │ session score: 0.884                                       │
+ ╰───────────┴────────────────────────────────────────────────────────────╯
+
+   What's the meaning of 友
+   (dynamic difficulty: 0/10)
+    >> friend
+    ✅ meaning: friend
+        onyomi: yuu
+       kunyomi: tomo
+
+   What's the meaning of 以
+   (dynamic difficulty: 0/10)
+    >> compar
+    ✅ meaning: by means of, because, in view of, compared with
+        onyomi: i
+       kunyomi: mo(tte)
+
+   What's the meaning of 有
+   (dynamic difficulty: 0/10)
+    >>
+
+ ╭────────────────────────────────────────────────────────────────────────╮
+ │ type -x to close the program                                           │
+ ╰────────────────────────────────────────────────────────────────────────╯
+```
 ## Scores and Weights
 The program keeps track of which question you got right and wrong in the folder `scores/<player_name>`. This is use to dynamically determine the next question. For example, if you are not good with a certain kanji, it will appear more often (higher weight) than another kanji where you find easy (lower weight). The weight of the draw is given by
 ```math
