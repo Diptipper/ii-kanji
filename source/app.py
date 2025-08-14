@@ -1,7 +1,6 @@
 from typing import Dict, List, Tuple, Optional
-from numpy.random import choice
 from pathlib import Path
-import numpy as np
+import random, math
 import re, os, sys
 
 # ----------------------------
@@ -347,17 +346,15 @@ def main():
                 cat2_list.append((word, cat2))
                 weight_list.append(weight)
 
-        total_w = sum(weight_list)
-        if total_w <= 0:
-            # Everyone mastered: fall back to uniform sampling
-            probs = [1 / len(weight_list)] * len(weight_list)
+        if all(w == 0 for w in weight_list):
+            idx = random.randrange(len(cat2_list))
         else:
-            probs = [w / total_w for w in weight_list]
+            idx = random.choices(range(len(cat2_list)), weights=weight_list, k=1)[0]
 
-        idx = choice(len(cat2_list), p=probs)
+
         word, cat2 = cat2_list[idx]
         cat1 = "kanji"
-        difficulty = str(int(np.floor(10 * weight_list[idx]))) + "/10"
+        difficulty = str(int(math.floor(10 * weight_list[idx]))) + "/10"
 
         preposition = "for" if cat2 != "meaning" else "of"
         answers = expand_items(word[cat2])
