@@ -1,5 +1,6 @@
 
 # ii-KANJi
+Want to memorize JLPT kanji? Use ii-KANJi!
 ```
  ╭───────────┬────────────────────────────────────────────────────────────╮
  │           │        player: diptip                                      │
