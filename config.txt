@@ -4,7 +4,7 @@ lesson: meaning
 # can be {meaning, onyomi, kunyomi}
 
 levels:
-5, 4.1-8
+4.1-9
 # N.a means "from ((a-1)*10)-th word to (a*10)-th word of level N"
 # N.a-b means "words from N.a up to N.b"
 
